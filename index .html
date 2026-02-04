@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Cities of Afghanistan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Cultural Cities of Afghanistan</h1>
+        <p class="subtitle">Discover the unique culture of Afghan cities</p>
+        <nav>
+            <a href="#gallery">Gallery</a>
+            <a href="#city-of-day">City of the Day</a>
+            <a href="#submit-city">Submit a City</a>
+        </nav>
+    </header>
+    <section id="intro">
+        <p>Afghanistan has a rich culture with many beautiful cities. Each city has its own traditions, food, and special events. Explore the cities below!</p>
+    </section>
+    <section id="featured">
+        <h2>Featured Cities</h2>
+        <div class="grid-container">
+            <div class="city-card">
+                <div class="city-image" style="background-color:#DAA520;">Kabul</div>
+                <h3>Kabul</h3>
+                <p>Known for historic monuments and bazaars.</p>
+            </div>
+            <div class="city-card">
+                <div class="city-image" style="background-color:#8B4513;">Herat</div>
+                <h3>Herat</h3>
+                <p>Famous for poetry and art.</p>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <h2>City Gallery</h2>
+        <div class="grid-container">
+            <div class="city-card">
+                <img src="image/Mazar.jpg" alt="Mazar" class="city-image">
+
+                <h3>Mazar-i-Sharif</h3>
+                <p>Known for Blue Mosque and festivals.</p>
+            </div>
+            <div class="city-card">
+                <img src="image/kandahar.png" alt="Kandahar" class="city-image">
+
+                <h3>Kandahar</h3>
+                <p>Famous for traditional sweets.</p>
+            </div>
+            <div class="city-card">
+                <img src="image/Bamiyan.jpg" alt="Bamiyan" class="city-image">
+
+                <h3>Bamyan</h3>
+                <p>Known for Buddha statues and cliffs.</p>
+            </div>
+            <div class="city-card">
+                <img src="image/Jalalabad.jpg" alt="Jalalabad" class="city-image">
+
+                <h3>Jalalabad</h3>
+                <p>Famous for fruits and gardens.</p>
+            </div>
+        </div>
+    </section>
+    <section id="city-of-day">
+        <h2>City of the Day</h2>
+        <div class="flex-container">
+             <div class="featured-city">
+                <img src="image/kabul.jpg" alt="Kabul" class="city-image">
+
+                <h3>Kabul</h3>
+                <p>Traditional food: Mantu and Ashak</p>
+                <p>Clothes: Chapan (coat) and turbans</p>
+                <p>Events: Nowruz celebrations</p>
+            </div>
+        </div>
+    </section>
+    <section id="submit-city">
+        <h2>Submit a City</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="city">City Name:</label>
+            <input type="text" id="city" name="city" placeholder="Enter city name">
+
+            <label for="cultural">Cultural Detail:</label>
+            <input type="text" id="cultural" name="cultural" placeholder="Enter cultural fact">
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
