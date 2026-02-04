@@ -1,0 +1,121 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DC;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #8B4513;
+    color: white;
+}
+
+.title {
+    font-family: serif;
+    font-size: 2em;
+}
+
+.subtitle {
+    animation: fadeIn 2s ease-in-out infinite alternate;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #DAA520;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.city-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.city-card:hover {
+    transform: scale(1.05);
+}
+
+
+.city-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.featured-city {
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.featured-city:hover {
+    transform: scale(1.05);
+}
+
+
+form {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #8B4513;
+}
+
+input:focus {
+    border-color: #DAA520;
+}
+
+button {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #DAA520;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
